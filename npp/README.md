@@ -4,13 +4,13 @@
 
  + ***algol68g.xml***
 
-    A rather simple 
+    A horrible syntax file for a horrible language.
 
-    A few notes:
+    Please note:
         
-        + Only supports simple names, i.e., whitespace isn't supported. This goes double for stdlib functions. I simply haven't found a way to express it in UDL yet, and I don't think it's possible at all.
+      + Only supports simple names, i.e., whitespace isn't supported. This goes double for stdlib functions. I simply haven't found a way to express it in UDL yet, and I don't think it's possible at all.
 
-        + Some things are rather hacky, for example `COMMENT ... END COMMENT` are implemented by simply only recognizing `COMMENT` as star- and end-block of a block-comment. Hashtag-based comment-blocks (`#`) work just fine, of course.
+      + Some things are rather hacky, for example `COMMENT ... END COMMENT` are implemented by simply only recognizing `COMMENT` as star- and end-block of a block-comment. Hashtag-based comment-blocks (`#`) work just fine, of course.
 
  + ***asm_improved.xml***
 
